@@ -109,7 +109,8 @@
   },
   {
     "nama": "RIZQILLAH",
-    "NIM": "1957301020"
+    "NIM": "1957301020",
+    "API": "https://test-api-web.herokuapp.com"
   },
   {
     "nama": "Salma Sheila Maulina Putri",

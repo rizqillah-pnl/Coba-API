@@ -30,10 +30,13 @@ if (isset($_GET['nama']) || isset($_GET['nim'])) {
   }
 
   if ($res != null) {
+    $data[$res]->status = "200 OK";
     print_r(json_encode($data[$res]));
   } else {
-    echo "Data Tidak Ditemukan!";
+    $data = json_encode(array('status' => '404 Error', 'detail' => 'Data Tidak Ditemukan!'));
+
+    print_r($data);
   }
 } else {
-  echo $data;
+  print_r($data);
 }
