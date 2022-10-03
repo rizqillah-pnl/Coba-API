@@ -1,3 +1,3 @@
 # TES API
 
-jika mengambil coding dari repo, harap menyertakan source dari repo
+jika mengambil <i>Source Code</i> dari <i>Repository</i> ini. Harap menyertakan sumber pada project <strong>terkait!</strong>
