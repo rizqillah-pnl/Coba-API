@@ -26,9 +26,8 @@ if (isset($_GET['nama']) || isset($_GET['nim'])) {
         break;
       }
     } else if (isset($_GET['nim'])) {
-
       // Jika data ditemukan, keluar dari looping
-      if ($data[$i]->NIM == $nim) {
+      if ($data[$i]->nim == $nim) {
         $res = $i;
         break;
       }
